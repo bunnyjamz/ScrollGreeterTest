@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "scrollMessengerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "targetAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "greeting",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "gasLimit",
+						"type": "uint32"
+					}
+				],
+				"name": "executeFunctionCrosschain",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GreeterOperator.sol": "GreeterOperator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@scroll-tech/contracts@0.1.0/libraries/IScrollMessenger.sol": {
+			"keccak256": "0x5a39de18b5912b62614eba49a0381b84e57bc339d00cc8b5e1da1adab457ee41",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4f7959447ca88e7fba1b1cfe3f0c7c26284a5f750f30f01b9f4ac4001b4861bd",
+				"dweb:/ipfs/QmPzByeNMPkzZTFd1GLJHF2diCL1AdTE1LRdfp4nS7zxGX"
+			]
+		},
+		"contracts/GreeterOperator.sol": {
+			"keccak256": "0xa16289e6a7b53c745ada815b494df491f15860150b10708b1bbabe3244e98673",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8425a17b8ae026c160790ab0f46dd9a7bd505c3fe5c813dfc479fbbc7ce66b55",
+				"dweb:/ipfs/QmTwQz5t6zkLsMXCDTZtBjHy6xjZixxbNZKNCxa5oQ9X6J"
+			]
+		}
+	},
+	"version": 1
+}
